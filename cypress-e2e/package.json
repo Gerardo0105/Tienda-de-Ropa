@@ -4,7 +4,7 @@
   "description": "E2E Framwork testing cypress ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/cypress open"
   },
   "keywords": [
     "E2E",
@@ -15,5 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gerardo0105/Tienda-de-Ropa/tree/master/cypress-e2e"
   }
 }
